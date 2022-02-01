@@ -16,7 +16,9 @@ public class Library {
         books.add(book3);
 
         Book myBook = new Book(201293, "Be Nice! (Or else..)", 2000);
+        Book my2Book = new Book(543890, "The Arts of BRUH", 2022);
         System.out.println(checkBookISBN(myBook));
+        System.out.println(checkBookISBN(my2Book));
 
     }
 
