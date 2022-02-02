@@ -1,13 +1,13 @@
 package com.company;
 
 public class Book {
-    private int number;
+    private String number;
     private String title;
     private int releaseYear;
 
 
     //CONSTRUCTOR
-    public Book(int number, String title, int releaseYear) {
+    public Book(String number, String title, int releaseYear) {
         this.number = number;
         this.title = title;
         this.releaseYear = releaseYear;
@@ -15,7 +15,7 @@ public class Book {
 
 
     //GETTERS
-    public int getNumber() {
+    public String getNumber() {
         return number;
     }
 
@@ -29,7 +29,7 @@ public class Book {
 
 
     //SETTERS
-    public void setNumber(int number) {
+    public void setNumber(String number) {
         this.number = number;
     }
 
